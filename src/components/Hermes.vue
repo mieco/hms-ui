@@ -165,7 +165,7 @@ this.results = [];
         this.form.products.length <= 0 ||
         this.form.products.map((p) => p).length <= 0 ||
         !this.form.cookie ||
-        !this.form.datadome ||
+        // !this.form.datadome ||
         this.loading
       );
     },
